@@ -1,7 +1,7 @@
 Android-Config
 ================
 
-Config is a utility class for Android that helps you manage your app configuration.
+Android-Config helps to manage the different build settings of your app.
 
 ## How it works
 
