@@ -1,4 +1,4 @@
-package se.marteinn.utils.config.config;
+package se.marteinn.utils.config;
 
 import java.io.IOException;
 import java.io.InputStream;
