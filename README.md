@@ -50,6 +50,25 @@ Then retrive the various settings with these methods:
 	Config.getInstance().getIntParam("AGE"); // 3600
 	Config.getInstance().getBooleanParam("TRACKING"); // true
 	
+## Setup
+
+#### Locally
+
+Download [config.aar](https://github.com/marteinn/Android-Config/blob/master/dist/config.aar) and move it to your libs folder, then make sure you got libs specified as a flatDir in `gradle.config`
+	
+	repositories {
+	    mavenCentral()
+	    flatDir {
+	        dirs 'libs'
+	    }
+	}
+
+After that just include it as any other dependency.
+ 
+	dependencies {
+		compile 'se.marteinn.utils.config:config:1.0@aar'
+	}
+	
 	
 ## Contributing
 
